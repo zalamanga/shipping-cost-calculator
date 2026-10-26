@@ -1,0 +1,26 @@
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+# Local-only settings and runtime
+.env
+.env.*
+!.env.example
+/vendor/
+/node_modules/
+/.vscode/
+*.log
+error_log
+*.sql
+!/database/schema.sql
+/uploads/
